@@ -1,0 +1,32 @@
+.content-wrap-sanpham{
+    padding: 25px;
+    width: 50%;
+    margin: 0 auto;
+    clear: both;
+    /* place-content: center; */
+    /* background-image: url("../../assets/ocean.jpg"); */
+    background-size: cover;
+}
+
+.recipe-wrap{
+    background: linear-gradient(to right, rgb(55, 85, 255), rgb(206, 114, 201) ,rgb(245, 237, 238), rgb(248, 2, 2))
+}
+
+
+
+@media (max-width: 799px) {
+    .content-wrap-sanpham {
+        width: 80%;
+    }
+ 
+    .intro{
+        display: inline;
+    }
+    mat-divider {
+        display: block;
+    }
+    .content-wrap-galery{
+        width: 90%;
+    }
+
+}

@@ -1,0 +1,32 @@
+.menu {
+    margin-right: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    background: rgba(230, 217, 195, 0.938);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(131, 10, 10);
+}
+
+.order-online {
+    position: fixed;
+    right: 0;
+    top: 70%;
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(131, 10, 10);
+    font-size: x-large;
+    font-weight: bold;
+    background: blanchedalmond;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.banner {
+    height: 500px;
+    background-image: url("../../assets/shiba1.png");
+    background-size: cover;
+}
+

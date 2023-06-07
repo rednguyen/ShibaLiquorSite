@@ -1,0 +1,27 @@
+.fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+  }  
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  }  
+ .fa-instagram {  
+    background: #e70878;  
+    color: white;  
+  }  
+  .fa-tiktok {  
+    background: #000508;  
+    color: white;  
+  }  
+ 
+  .fa:hover {  
+      opacity: 0.9;  
+  }  
