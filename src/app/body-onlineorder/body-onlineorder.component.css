@@ -5,4 +5,24 @@
 
 .company-name {
     margin-right: 10%;
+    display: inline-block;
+}
+
+.divider {
+    display: none;
+}
+
+
+@media (max-width: 799px) {
+    .company-name {
+        display: block;
+        margin: 0;
+    }
+    .online-order {
+        margin: 10px;
+    }
+    .divider {
+        display:block;
+    }
+    
 }

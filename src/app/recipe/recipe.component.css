@@ -16,16 +16,6 @@
 
 @media (max-width: 799px) {
     .content-wrap-sanpham {
-        width: 80%;
-    }
- 
-    .intro{
-        display: inline;
-    }
-    mat-divider {
-        display: block;
-    }
-    .content-wrap-galery{
         width: 90%;
     }
 

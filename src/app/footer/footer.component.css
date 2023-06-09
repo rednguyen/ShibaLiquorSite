@@ -1,9 +1,26 @@
 .footer-column {
     display: table-cell;
+    width: 30%;
     margin: 0 10%;
 }
 
 .open-close-hour{
     margin-bottom: 2%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.divider{
+    display: none;
+}
+
+@media (max-width: 799px) {
+    .footer-column{
+        display: block;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .divider{
+        display: block;
+    }
+    
 }

@@ -1,9 +1,26 @@
 <div style="background: rgb(21, 2, 26)">
-    <div style="margin: 0 auto; width: 250px;">
-        <img src=".\assets\logo.png" href="" style="width: 250px">
+    <div style="text-align: center;">
+        <a href=""><img src=".\assets\logo.png"></a>
     </div>
-    <div class="banner"></div>
-    <div style="padding: 15px; text-align: center;">
+    <div>
+        <img class="banner" src="../../assets/gallery3.jpg" style="width:100%;">
+    </div>
+    
+   <div class="mini-menu">
+        <div class="menu-toggler" (click)="toggleMenu()">Menu</div>
+        <span class="material-icons" style="background-color: rgb(173, 29, 4); margin-left: 10px;">
+           menu
+            </span>
+        <div class="menu-board" *ngIf="iSMenuOpened">
+            <div class="menu-item">ABOUT</div>
+            <div class="menu-item">HOME</div>
+            <div class="menu-item">HIRING</div>
+            <div class="menu-item">PROMOTION</div>
+            <div class="menu-item">CONTACT</div>
+        </div>
+   </div>
+
+    <div class="menu-list">
         <a class="menu" href="">ABOUT</a>
         <a class="menu" href="">HOME</a>
         <a class="menu" href="">HIRING</a>

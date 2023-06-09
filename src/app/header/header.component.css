@@ -5,9 +5,17 @@
     text-decoration: none;
     font-size: x-large;
     font-weight: bold;
-    background: rgba(230, 217, 195, 0.938);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(131, 10, 10);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(214, 32, 32);
+}
+
+.menu:hover{
+    color: rgb(147, 190, 247);
+}
+
+.menu-list {
+    padding: 20px 0; 
+    text-align: center;
 }
 
 .order-online {
@@ -25,8 +33,52 @@
 }
 
 .banner {
-    height: 500px;
-    background-image: url("../../assets/shiba1.png");
-    background-size: cover;
+    height: 100vh;
+    /* max-width: 800px; */
+    /* position: relative; */
+    /* margin: 0 auto; */
+    /* height: 500px;
+    background-image: url("../../assets/shiba1.png"); */
+    /* background-size: cover; */
 }
 
+.mini-menu {
+    display: none;
+    width: 200px;
+    font-size: 20px;
+    color: rgb(150, 145, 139);
+    /* background-color: beige; */
+}
+
+.menu-toggler {
+    padding: 10px;
+}
+
+.menu-board {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu-item {
+    cursor: pointer;
+    padding: 5px 0
+}
+
+.menu-item:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 799px) {
+    .menu{
+        display: none;
+    }
+
+    .banner{
+        height: 60vh;
+    }
+
+    .mini-menu {
+        display: block;
+    }
+}
