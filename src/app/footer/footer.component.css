@@ -13,14 +13,23 @@
     display: none;
 }
 
+.mini-map {
+    display: none;
+}
+
 @media (max-width: 799px) {
     .footer-column{
         display: block;
         width: 100%;
-        margin-top: 5%;
+        margin: 0;
     }
     .divider{
         display: block;
     }
-    
+    .big-map {
+        display: none;
+    }
+    .mini-map{
+        display: block;
+    }
 }
