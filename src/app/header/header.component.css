@@ -47,6 +47,7 @@
     width: 200px;
     font-size: 20px;
     color: rgb(150, 145, 139);
+    cursor: pointer;
     /* background-color: beige; */
 }
 
@@ -58,6 +59,7 @@
     background: #333;
     color: #fff;
     padding: 10px;
+    margin-left: 10px
 }
 
 .menu-item {

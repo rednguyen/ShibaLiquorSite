@@ -7,10 +7,9 @@
     </div>
     
    <div class="mini-menu">
-        <div class="menu-toggler" (click)="toggleMenu()">Menu</div>
-        <span class="material-icons" style="background-color: rgb(173, 29, 4); margin-left: 10px;">
+        <span class="material-icons menu-toggler" style="background-color: rgb(173, 29, 4); margin-left: 10px;" (click)="toggleMenu()">
            menu
-            </span>
+        </span>
         <div class="menu-board" *ngIf="iSMenuOpened">
             <div class="menu-item">ABOUT</div>
             <div class="menu-item">HOME</div>
