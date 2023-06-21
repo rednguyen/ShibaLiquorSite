@@ -2,12 +2,14 @@
 <div class="recipe-wrap">
     <div class="content-wrap-sanpham" id="sanpham">
         <mat-tab-group animationDuration="2000ms">
-            <mat-tab>
+            <mat-tab *ngFor="let item of dataItem">
                 <ng-template mat-tab-label>
-                    <h2>MARGARITAS</h2>
+                    <h2>{{item.title}}</h2>
                 </ng-template>
-                <div style="margin: 20px auto;">
-                    <img src="../../assets/margaritas.jpg" style="width:30vh; float: left; margin-right: 5px">
+                <div class="recipe-mobile"  style="margin: 20px auto;">
+                    <img src="{{item.pathlink}}" style="width:30vh; float: left; margin-right: 5px">
+                </div>
+                <div class="recipe-mobile">
                     <li style="font-size: 20px;">2 ounces blanco tequila</li>
                     <li style="font-size: 20px;">1/2 ounce orange liqueur</li>
                     <li style="font-size: 20px;">1 ounce lime juice, freshly squeezed</li>
@@ -16,7 +18,7 @@
                     <li style="font-size: 20px;">Garnish: kosher salt (optional)</li>
                 </div>
             </mat-tab>
-            <mat-tab>
+            <!-- <mat-tab>
                 <ng-template mat-tab-label>
                     <h2>PALOMA</h2>
                 </ng-template>
@@ -71,7 +73,7 @@
                     <li style="font-size: 20px;">Garnish: lime wheel</li>
                     <li style="font-size: 20px;">Garnish: kosher salt (optional)</li>
                 </div>
-            </mat-tab>
+            </mat-tab> -->
         </mat-tab-group>
     </div>
 </div>

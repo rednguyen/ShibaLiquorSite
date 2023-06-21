@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import {MatTabsModule} from '@angular/material/tabs';
+import recipedata  from './recipe';
+import { Recipe } from './recipe.model';
 
 @Component({
   selector: 'app-recipe',
@@ -7,5 +8,10 @@ import {MatTabsModule} from '@angular/material/tabs';
   styleUrls: ['./recipe.component.css']
 })
 export class RecipeComponent {
+  dataItem: Array<Recipe> = recipedata;
 
+  constructor() { }
+
+  ngOnInit(): void {
+  }
 }

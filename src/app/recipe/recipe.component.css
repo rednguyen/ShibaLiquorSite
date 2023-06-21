@@ -18,5 +18,7 @@
     .content-wrap-sanpham {
         width: 80%;
     }
-
+    .recipe-mobile {
+        display: inline-block;
+    }
 }
