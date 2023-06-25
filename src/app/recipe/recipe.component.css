@@ -1,8 +1,8 @@
 .content-wrap-sanpham{
     padding: 25px;
-    width: 50%;
+    width: 65%;
     margin: 0 auto;
-    clear: both;
+    /* clear: both; */
     /* place-content: center; */
     /* background-image: url("../../assets/ocean.jpg"); */
     background-size: cover;
@@ -16,9 +16,9 @@
 
 @media (max-width: 799px) {
     .content-wrap-sanpham {
-        width: 80%;
+        width: 100%;
     }
     .recipe-mobile {
-        display: inline-block;
+        display: table-row;
     }
 }
