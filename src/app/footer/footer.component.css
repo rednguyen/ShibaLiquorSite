@@ -32,4 +32,7 @@
     .mini-map{
         display: block;
     }
+    .footer-column{
+        padding-top: 15px;
+    }
 }

@@ -5,7 +5,7 @@
     /* clear: both; */
     /* place-content: center; */
     /* background-image: url("../../assets/ocean.jpg"); */
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 .recipe-wrap{
@@ -16,7 +16,7 @@
 
 @media (max-width: 799px) {
     .content-wrap-sanpham {
-        width: 100%;
+        width: 90%;
     }
     .recipe-mobile {
         display: table-row;

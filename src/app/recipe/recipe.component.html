@@ -6,10 +6,7 @@
                 <ng-template mat-tab-label>
                     <h2>{{item.title}}</h2>
                 </ng-template>
-                <div class="recipe-mobile"  style="margin: 20px auto;">
-                    <img src="{{item.pathlink}}" style="width:30vh; float: left; margin-right: 5px">
-                </div>
-                <div class="recipe-mobile">
+                <div class="recipe-mobile" style="float: left; margin: 20px auto;">
                     <li style="font-size: 20px;">2 ounces blanco tequila</li>
                     <li style="font-size: 20px;">1/2 ounce orange liqueur</li>
                     <li style="font-size: 20px;">1 ounce lime juice, freshly squeezed</li>
@@ -17,6 +14,10 @@
                     <li style="font-size: 20px;">Garnish: lime wheel</li>
                     <li style="font-size: 20px;">Garnish: kosher salt (optional)</li>
                 </div>
+                <div class="recipe-mobile"  style="">
+                    <img src="{{item.pathlink}}" style="width:30vh; margin-left: 10px;">
+                </div>
+               
             </mat-tab>
             <!-- <mat-tab>
                 <ng-template mat-tab-label>

@@ -64,7 +64,10 @@
 
 .menu-item {
     cursor: pointer;
-    padding: 5px 0
+    padding: 5px 0;
+    color: white;
+    display: block;
+    text-decoration: none;
 }
 
 .menu-item:hover{
